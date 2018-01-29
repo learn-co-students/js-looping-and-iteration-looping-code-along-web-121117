@@ -151,7 +151,17 @@ while (countdown > 0) {
 ```
 
 ### Assignment
-We're going to create a little game for our Flatbook users to play when they're bored. Create a function named `tailsNeverFails()` that takes no arguments. In the function body, use a `while` loop with a condition that simulates a coin flip (two equally likely outcomes). For inspiration, check out the `maybeTrue()` example above. If the condition evaluates to `true`, the coin landed on 'Tails' and is flipped again. If the condition evaluates to `false`, the coin landed on 'Heads', and the 'Tails' streak is broken. At the end of the function, `return` a message to the user indicating how many times the coin landed on 'Tails' in a row, e.g.:
+We're going to create a little game for our Flatbook users to play when they're bored. Create a function named `tailsNeverFails()` that takes no arguments.
+
+In the function body, use a `while` loop with a condition that simulates a coin flip (two equally likely outcomes).
+
+For inspiration, check out the `maybeTrue()` example above.
+
+ If the condition evaluates to `true`, the coin landed on 'Tails' and is flipped again.
+
+ If the condition evaluates to `false`, the coin landed on 'Heads', and the 'Tails' streak is broken.
+
+  At the end of the function, `return` a message to the user indicating how many times the coin landed on 'Tails' in a row, e.g.:
 ```js
 tailsNeverFails();
 // => "You got 3 tails in a row!"
